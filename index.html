@@ -2,450 +2,281 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
 
-	<title>Node.js mentoring</title>
+    <title>Node.js mentoring</title>
 
-	<meta name="description" content="Node.js mentoring presentation">
-	<meta name="author" content="Maksym Tarasenko">
+    <meta name="description" content="Node.js mentoring presentation">
+    <meta name="author" content="Maksym Tarasenko">
 
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css" id="theme">
 
-	<!-- Code syntax highlighting -->
-	<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-	<style>
-		.reveal section p.main-logo img {
-			border: none;
-			background: none;
-			box-shadow: none;
-		}
-		
-		.reveal section p.main-logo {
-		}
-		
-		h1.node-heared {
-			color: white;
-		}
-		
-		small.highlight-blue {
-			background-color: #39C2D7;
-			color: white;
-			padding: 8px;
-		}
-	</style>
-	<!-- Printing and PDF exports -->
-	<script>
-		var link = document.createElement('link');
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-		document.getElementsByTagName('head')[0].appendChild(link);
-	</script>
+    <style>
+        .reveal section p.main-logo img {
+            border: none;
+            background: none;
+            box-shadow: none;
+        }
+        
+        .reveal section p.main-logo {
+        }
+        
+        h1.node-heared {
+            color: white;
+        }
+        
+        small.highlight-blue {
+            background-color: #39C2D7;
+            color: white;
+            padding: 8px;
+        }
+    </style>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
 
-	<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
+    <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
 </head>
 
 <body>
 
-	<div class="reveal">
+    <div class="reveal">
 
-		<!-- Any section element inside of this container is displayed as a slide -->
-		<div class="slides">
-			<section data-background="img/lake_view.jpg" style="text-align: left; color: white;">
-				<p class='main-logo'><img src="img\EPAM_LOGO_White_type_RGB.png" /></p>
-				<h1 class="node-heared">Node.js</h1>
-				<p>
-					<small class="highlight-blue">Created by <a href="https://github.com/itmoh">Maksym Tarasenko</a></small>
-				</p>
-			</section>
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section data-background="img/lake_view.jpg" style="text-align: left; color: white;">
+                <p class='main-logo'><img src="img\EPAM_LOGO_White_type_RGB.png" /></p>
+                <h1 class="node-heared">Node.js</h1>
+                <p>
+                    <small class="highlight-blue">Created by <a href="https://github.com/itmoh">Maksym Tarasenko</a></small>
+                </p>
+            </section>
 
-			<section>
-				<h1>Agenda</h1>
-				<ul>
-					<li>Node Basics</li>
-					<li>Modules</li>
-					<li>NPM</li>
-					<li>Async Code / Streams</li>
-					<li>Development & Debug</li>
-				</ul>
-			</section>
+            <section>
+                <h1>Agenda</h1>
+                <ul>
+                    <li>HTTP & REST</li>
+                    <li></li>
+                </ul>
+            </section>
+            <SECTION>
+                <SECTION>
+                    <IMG DATA-SRC="img\web-app.png" ALT="web app">
+                </SECTION>
+            </section>
+            <!-- Example of nested vertical slides -->
+            <section>
+                <section>
+                    <h2>HTTP</h2>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>response status codes</h2>
+                    <ul>
+                        <li>1xx informational</li>
+                        <li>2xx success</li>
+                        <li>3xx redirect</li>
+                        <li>4xx client error</li>
+                        <li>5xx server error</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>REST</h2>
+                    <ul>
+                        <li>Uniform Interface</li>
+                        <li>Stateless Interactions</li>
+                        <li>Cacheable</li>
+                        <li>Client-Server</li>
+                        <li>Layered System</li>
+                        <li>Code on Demand</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>HTTP & REST</h2>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>REST API is composed of</h2>
+                    <ul>
+                        <li>docroot</li>
+                        <li>resource</li>
+                        <li>collection</li>
+                        <li>controller</li>
+                    </ul>
+                </section>
+                <SECTION>
+                    <H2>HTTP</H2>
+                    <IMG DATA-SRC="img\swagger-petstore-endpoint-methods.png" ALT="">
+                </SECTION>
+                <SECTION>
+                    <H2>REST methods</H2>
+                    <IMG DATA-SRC="img\rest-vs-messaging-for-microservices-13-638.jpg" ALT="">
+                </SECTION>
+                <section>
+                    <h2>Golden Rules</h2>
+                    <ul>
+                        <li>Flat is better than nested.</li>
+                        <li>Simple is better than complex.</li>
+                        <li>Strings are better than numbers.</li>
+                        <li>Consistency is better than customization.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Filtering</h2>
+                    <code class="hljs" data-trim>
+                        GET /comments?filter[post]=1,2&filter[author]=12 HTTP/1.1
+                    </code>
+                    <h2>Pagination</h2>
+                    <code class="hljs" data-trim>
+                        GET /articles?page[number]=3&page[size]=1 HTTP/1.1
+                    </code>
+                </section>
+                <section>
+                    <h2>API Design Principles</h2>
+                    <ul>
+                        <li>Build for the consumer</li>
+                        <li>Convention over configuration</li>
+                        <li>Optimize close to the metal</li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <SECTION>
+                    <H2>Java</H2>
+                    <IMG DATA-SRC="img\threading_java.png" ALT="">
+                </SECTION>
+                <SECTION>
+                    <H2>Node.js</H2>
+                    <IMG DATA-SRC="img\threading_node.png" ALT="">
+                </SECTION>
+                <SECTION>
+                    <H2>Node.js</H2>
+                    <IMG DATA-SRC="img\node-system.jpg" ALT="">
+                </SECTION>
+                <section>
+                    <h2>Base concepts</h2>
+                    <ul>
+                        <li>Modules</li>
+                        <li>npm</li>
+                        <li>EventEmitter/streams/pipe</li>
+                        <li>Async/callbacks/promises/generators...</li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h2>setup application</h2>
+                    <ul>
+                        <li>https://github.com/lorenwest/node-config</li>
+                        <li>npm 5 lock files</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>express</h2>
+                    <ul>
+                        <li>https://github.com/expressjs/csurf</li>
+                        <li>https://github.com/helmetjs/helmet</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>mongo/mongoose</h2>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Debugging</h2>
+                    <ul>
+                        <li>postman</li>
+                        <li>Domains</li>
+                        <li>https://github.com/winstonjs/winston</li>
+                        <li>nodemon</li>
+                        <li>pm2</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>nodejs scaling</h2>
+                    <ul>
+                        <li>Cluster</li>
+                        <li>pm2</li>
+                    </ul>
+                </section> 
+                
 
-			<!-- Example of nested vertical slides -->
-			<section>
-				<section>
-					<h2>What is node?</h2>
-					<ul>
-						<li>v8 javascript engine</li>
-						<li>Event drivin</li>
-						<li>Non-blocking standart libraries</li>
-						<li>C\C++ adons</li>
-						<li>NPM</li>
-					</ul>
-				</section>
-				<section>
-					<h2>JavaScript Everywhere</h2>
-					<ul>
-						<li>Code reuse (minimal)</li>
-						<li>Same programming culture on client and server</li>
-						<li>Lots of JavaScript programmers</li>
-					</ul>
-				</section>
-				<section>
-					<h2>Vibrant Community</h2>
-					<ul>
-						<li>324,000+ packages on npm</li>
-						<li>Top corporate sponsors</li>
-						<li>Huge wealth of JS code</li>
-					</ul>
-				</section>
-				<section>
-					<h2>Sweet Spots</h2>
-					<ul>
-						<li>Real-time/high concurrency apps (I/O Bound)</li>
-						<li>API tier for single-page apps and rich clients (iOS, Android)</li>
-						<li>Service orchestration</li>
-						<li>Working with document (JSON-style) databases</li>
-					</ul>
-				</section>
-			</section>
-			<SECTION>
-				<SECTION>
-					<H2>EVENT LOOP</H2>
-					<IMG DATA-SRC="img\windows-node_js_02.jpg" ALT="">
-				</SECTION>
-				<SECTION>
-					<H2>EVENT LOOP</H2>
-					<IMG DATA-SRC="img\windows-node_js_03.jpg" ALT="">
-				</SECTION>
-				<SECTION>
-					<H2>EVENT LOOP</H2>
-					<IMG DATA-SRC="img\windows-node_js_04.jpg" ALT="">
-				</SECTION>
-				<SECTION>
-					<H2>EVENT LOOP</H2>
-					<IMG data-src="img\windows-node_js_05.jpg" alt="">
-				</section>
-				<section>
-					<h2>Event Loop</h2>
-					<img data-src="img\windows-node_js_06.jpg" alt="">
-				</section>
-			</section>
-			<section>
-				<section>
-					<h2>Modules</h2>
-					<ul>
-						<li>Prevents pollution of the global scope</li>
-						<li>Module structure</li>
-						<li>module.exports</li>
-						<li>Caching</li>
-					</ul>
-				</section>
-				<section data-markdown>
-					<h2>Modules: require</h2>
-					<code class="hljs" data-trim>
-						var module1 = require('module1');
-						var module1 = require('./node_modules/module1/index.js');
-						var module2 = require('./module2');
-						var module3 = require('../module3');
-					</code>
-				</section>
-				<section data-markdown>
-					<h2>Modules: </h2>
-					<code class="hljs" data-trim>
-						exports.log = function(msg) {
-							console.log(msg);
-						}
+            </section>
+            <section>
+                <section>
+                    <h2>Questions?</h2>
+                </section>
+            </section>
+        </div>
+    </div>
 
-						module.exports = function Loger() {
-							this.log = function(msg) {
-								console.log(msg);
-							}
-						};
-					</code>
-				</section>
-			</section>
-			<section>
-				<section>
-					<h2>NPM / Yarn</h2>
-					<ul>
-						<li>package.json</li>
-						<li>npm init</li>
-						<li>npm install</li>
-						<li>npm publish</li>
-					</ul>
-				</section>
-				<section>
-					<h2>package.json (1)</h2>
-					<pre><code class="json" >{
-	"name": "3_npm_test",
-	"version": "1.0.0",
-	"description": "test package",
-	"main": "main.js",
-	"scripts": {
-		"test": "echo \"Error: no test\" && exit 1",
-		"runMain": "node main.js"
-	}
-}</code></pre>
-				</section>
-				<section>
-					<h2>package.json (2)</h2>
-					<pre><code class="json" >{
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/itmoh/node-mentoring.git"
-	},
-	"keywords": [
-		"node"
-	],
-	"author": "maxim tarasenko",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/itmoh/node-mentoring/issues"
-	},
-	"homepage": "https://github.com/itmoh/node-mentoring#readme"
-}</code></pre>
-				</section>
-			</section>
-			<section>
-				<section>
-					<h2>Streams</h2>
-					<ul>
-						<li>Events</li>
-						<li>fs</li>
-						<li>http</li>
-						<li><a href="https://github.com/substack/stream-adventure">stream-adventure</a></li>
-					</ul>
-				</section>
-				<section data-markdown>
-					<h2>EventEmitter</h2>
-					<code class="hljs" data-trim>
-						var EventEmitter = require('events');
-						var emitter = new EventEmitter();
-						var listener = (arg) => {console.log(arg);};
-						emitter.on('test', listener);
-						setTimeout(function() {
-							emitter.emit('test', 'Hello world');
-							emitter.removeListener('test', listener);
-							emitter.emit('test', 'Hello world');
-						}, 1000);
-					</code>
-				</section>
-				<section data-markdown>
-					<h2>Readable Stream</h2>
-					<code class="hljs" data-trim>
-						var fs = require('fs');
-						var readableStream = fs.createReadStream('file.txt');
-						var data = '';
-						readableStream.on('data', function(chunk) {
-							data+=chunk;
-						});
-						readableStream.on('end', function() {
-							console.log(data);
-						});
-					</code>
-				</section>
-				<section data-markdown>
-					<h2>Writable Streams</h2>
-					<code class="hljs" data-trim>
-						var fs = require('fs');
-						var readableStream = fs.createReadStream('file1.txt');
-						var writableStream = fs.createWriteStream('file2.txt');
-						readableStream.on('data', function(chunk) {
-							writableStream.write(chunk);
-						});
-					</code>
-				</section>
-				<section data-markdown>
-					<h2>duplex, transform streams</h2>
-					<code class="hljs" data-trim>
-						a.pipe(b).pipe(a)
-						a.pipe(b).pipe(c)
-					</code>
-				</section>
-				<section data-markdown>
-					<h2>Pipe</h2>
-					<code class="hljs" data-trim>
-						var writableModuleStream = fs.createWriteStream('module.txt');
-						var stream = fs.createReadStream('data.csv');
-						stream.on('readable', onFileRead);
-						stream.on('end', function() {
-							writableModuleStream.end();
-						});
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
 
-						function onFileRead() {
-							var data = stream.read();
-							if (data && !writableModuleStream.write(data)) {
-								stream.removeListener('readable', onFileRead);
-								writableModuleStream.once('drain', function() {
-									stream.on('readable', onFileRead);
-									onFileRead();
-								});
-							}
-						}
-					</code>
-				</section>
-				<section data-markdown>
-					<h2>fs + http</h2>
-					<code class="hljs" data-trim>
-						var http = require('http'),
-						fs = require('fs');
-						http.createServer(function(request, response) {
-							if (req.method === 'POST') {
-								fs.readFile('./data.csv', 'utf-8', function(err, data) {
-									response.end(data);
-								});
-							} else res.end('send me a POST\n');
-						}).listen(3000);
-					</code>
-				</section>
-			</section>
-			<section>
-				<section>
-					<h2>Async Code</h2>
-					<ul>
-						<li>Node-style</li>
-						<li>Promises (Q)</li>
-						<li>Async</li>
-						<li>Generators(ES6)</li>
-					</ul>
-				</section>
-				<section data-markdown>
-					<h2>Node-style</h2>
-					<code class="hljs" data-trim>
-						var someModule = require('./some_module');
-						someModule.sum({ x: 1, y: 2 }, function(err, result) {
-							if (err) {
-								console.log(err);
-								return;
-							}
-							console.log(result);
-						});
-					</code>
-				</section>
-				<section data-markdown>
-					<h2>Promises (Q)</h2>
-					<code class="hljs" data-trim>
-						var someModule = require('./some_module');
-						var qSum = Q.denodeify(someModule.sum);
-						Q({ x: 1, y: 2 })
-							.then(qSum)
-							.then(function(result) {
-								console.log(result);
-							})
-							.catch(function(error) {
-								console.log(error);
-							});
-					</code>
-				</section>
-				<section data-markdown>
-					<h2>Async</h2>
-					<code class="hljs" data-trim>
-						var async = require('async');
-						var someModule = require('./some_module');
-						async.waterfall([
-							function(callback) {
-								callback(null, { x: 1, y: 2 });
-							},
-							someModule.sum,
-							function(result, callback) {
-								console.log(result);
-							},
-						], function (err, result) {
-							console.log(err);
-						});
-					</code>
-				</section>
-				<section data-markdown>
-					<h2>Generators(ES6)</h2>
-					<code class="hljs" data-trim>
-						var Q = require('Q');
-						var co = require('co');
-						var someModule = require('./some_module');
-						var qSum = Q.denodeify(someModule.sum);
-						function* test() {
-							try {
-								var result = yield qSum({x: 1, y: 2});
-								console.log(result);
-							} catch(err) {
-								console.log(err);
-							}
-						};
-						co(test);
-					</code>
-				</section>
-			</section>
-			<section>
-				<section>
-					<h2>Development & Debug</h2>
-					<ul>
-						<li>nodemoni, pm2</li>
-						<li>node-inspector, --inspect-brk</li>
-					</ul>
-				</section>
-			</section>
-			<section>
-				<section>
-					<h2>Questions?</h2>
-				</section>
-			</section>
-		</div>
+    <script>
+        // Full list of configuration options available at:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
 
-	</div>
+            transition: 'convex', // none/fade/slide/convex/concave/zoom
 
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
-
-	<script>
-		// Full list of configuration options available at:
-		// https://github.com/hakimel/reveal.js#configuration
-		Reveal.initialize({
-			controls: true,
-			progress: true,
-			history: true,
-			center: true,
-
-			transition: 'convex', // none/fade/slide/convex/concave/zoom
-
-			// Optional reveal.js plugins
-			dependencies: [{
-				src: 'lib/js/classList.js',
-				condition: function () {
-					return !document.body.classList;
-				}
-			}, {
-				src: 'plugin/markdown/marked.js',
-				condition: function () {
-					return !!document.querySelector('[data-markdown]');
-				}
-			}, {
-				src: 'plugin/markdown/markdown.js',
-				condition: function () {
-					return !!document.querySelector('[data-markdown]');
-				}
-			}, {
-				src: 'plugin/highlight/highlight.js',
-				async: true,
-				callback: function () {
-					hljs.initHighlightingOnLoad();
-				}
-			}, {
-				src: 'plugin/zoom-js/zoom.js',
-				async: true
-			}, {
-				src: 'plugin/notes/notes.js',
-				async: true
-			}]
-		});
-	</script>
+            // Optional reveal.js plugins
+            dependencies: [{
+                src: 'lib/js/classList.js',
+                condition: function () {
+                    return !document.body.classList;
+                }
+            }, {
+                src: 'plugin/markdown/marked.js',
+                condition: function () {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            }, {
+                src: 'plugin/markdown/markdown.js',
+                condition: function () {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            }, {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }, {
+                src: 'plugin/zoom-js/zoom.js',
+                async: true
+            }, {
+                src: 'plugin/notes/notes.js',
+                async: true
+            }]
+        });
+    </script>
 
 </body>
 
