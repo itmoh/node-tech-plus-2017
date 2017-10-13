@@ -26,14 +26,11 @@
             background: none;
             box-shadow: none;
         }
-        
         .reveal section p.main-logo {
         }
-        
         h1.node-heared {
             color: white;
         }
-        
         small.highlight-blue {
             background-color: #39C2D7;
             color: white;
@@ -67,14 +64,6 @@
                     <small class="highlight-blue">Created by <a href="https://github.com/itmoh">Maksym Tarasenko</a></small>
                 </p>
             </section>
-
-            <section>
-                <h1>Agenda</h1>
-                <ul>
-                    <li>HTTP & REST</li>
-                    <li></li>
-                </ul>
-            </section>
             <SECTION>
                 <SECTION>
                     <IMG DATA-SRC="img\web-app.png" ALT="web app">
@@ -82,12 +71,16 @@
             </section>
             <!-- Example of nested vertical slides -->
             <section>
-                <section>
-                    <h2>HTTP</h2>
-                    <ul>
-                        <li></li>
-                    </ul>
-                </section>
+                <SECTION>
+                    <H2>HTTP</H2>
+                    <p>HyperText Transfer Protocol</p>
+                    <H2>REST</H2>
+                    <p>Representational State Transfer</p>
+                </SECTION>
+                <SECTION>
+                        <H2>methods</H2>
+                        <IMG DATA-SRC="img\rest-vs-messaging-for-microservices-13-638.jpg" ALT="">
+                </SECTION>
                 <section>
                     <h2>response status codes</h2>
                     <ul>
@@ -96,23 +89,6 @@
                         <li>3xx redirect</li>
                         <li>4xx client error</li>
                         <li>5xx server error</li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>REST</h2>
-                    <ul>
-                        <li>Uniform Interface</li>
-                        <li>Stateless Interactions</li>
-                        <li>Cacheable</li>
-                        <li>Client-Server</li>
-                        <li>Layered System</li>
-                        <li>Code on Demand</li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>HTTP & REST</h2>
-                    <ul>
-                        <li></li>
                     </ul>
                 </section>
                 <section>
@@ -125,20 +101,18 @@
                     </ul>
                 </section>
                 <SECTION>
-                    <H2>HTTP</H2>
+                    <H2>Resources</H2>
                     <IMG DATA-SRC="img\swagger-petstore-endpoint-methods.png" ALT="">
                 </SECTION>
-                <SECTION>
-                    <H2>REST methods</H2>
-                    <IMG DATA-SRC="img\rest-vs-messaging-for-microservices-13-638.jpg" ALT="">
-                </SECTION>
                 <section>
-                    <h2>Golden Rules</h2>
+                    <h2>REST</h2>
                     <ul>
-                        <li>Flat is better than nested.</li>
-                        <li>Simple is better than complex.</li>
-                        <li>Strings are better than numbers.</li>
-                        <li>Consistency is better than customization.</li>
+                        <li>Uniform Interface</li>
+                        <li>Stateless Interactions</li>
+                        <li>Cacheable</li>
+                        <li>Client-Server</li>
+                        <li>Layered System</li>
+                        <li>Code on Demand</li>
                     </ul>
                 </section>
                 <section>
@@ -150,14 +124,18 @@
                     <code class="hljs" data-trim>
                         GET /articles?page[number]=3&page[size]=1 HTTP/1.1
                     </code>
+                </section> 
+                <section>
+                    <h2>Golden Rules</h2>
+                    <ul>
+                        <li>Flat is better than nested</li>
+                        <li>Simple is better than complex</li>
+                        <li>Strings are better than numbers</li>
+                        <li>Consistency is better than customization</li>
+                    </ul>
                 </section>
                 <section>
-                    <h2>API Design Principles</h2>
-                    <ul>
-                        <li>Build for the consumer</li>
-                        <li>Convention over configuration</li>
-                        <li>Optimize close to the metal</li>
-                    </ul>
+                    <h2>Cookies and sessions</h2>
                 </section>
             </section>
             <section>
@@ -187,42 +165,57 @@
                 <section>
                     <h2>setup application</h2>
                     <ul>
-                        <li>https://github.com/lorenwest/node-config</li>
-                        <li>npm 5 lock files</li>
+                        <li>npm init</li>
+                        <li>lock files</li>
+                        <li>eslint</li>
+                        <li>prettier</li>
+                        <li>babel</li>
+                        <li>pre-commit</li>
+                        <li>lint-staged</li>
                     </ul>
                 </section>
                 <section>
                     <h2>express</h2>
-                    <ul>
-                        <li>https://github.com/expressjs/csurf</li>
-                        <li>https://github.com/helmetjs/helmet</li>
-                    </ul>
                 </section>
                 <section>
                     <h2>mongo/mongoose</h2>
-                    <ul>
-                        <li></li>
-                    </ul>
                 </section>
                 <section>
                     <h2>Debugging</h2>
                     <ul>
                         <li>postman</li>
-                        <li>Domains</li>
                         <li>https://github.com/winstonjs/winston</li>
                         <li>nodemon</li>
-                        <li>pm2</li>
+                        <li><a href="https://nodejs.org/en/docs/inspector/">inspect</a></li>
                     </ul>
                 </section>
                 <section>
                     <h2>nodejs scaling</h2>
                     <ul>
                         <li>Cluster</li>
-                        <li>pm2</li>
+                        <li><a href="http://pm2.keymetrics.io">pm2</a></li>
                     </ul>
                 </section> 
-                
-
+                <section>
+                    <h2>Security</h2>
+                    <ul>
+                        <li>root</li>
+                        <li>eval is EVIL</li>
+                        <li>HTTPS</li>
+                        <li>CORS</li>
+                        <li>CSP</li>
+                        <li>Do not trust anyone</li>
+                    </ul>
+                </section> 
+                <section>
+                        <h2>Security tools</h2>
+                        <ul>
+                            <li><a href="https://blog.risingstack.com/node-js-security-checklist/">Node.js Security Checklist</a></li>
+                            <li><a href="https://nodesecurity.io">nodesecurity</a></li>
+                            <li><a href="https://snyk.io">snyk</a></li>
+                            <li><a href="https://retirejs.github.io/retire.js/">retire.js</a></li>
+                        </ul>
+                    </section> 
             </section>
             <section>
                 <section>
